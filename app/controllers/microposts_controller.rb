@@ -1,4 +1,4 @@
-class MicropostsController < ApplicationController
+class MicropostsController < ActionController::Base 
   # GET /microposts
   # GET /microposts.json
   def index
